@@ -6,7 +6,6 @@ Microscope can capture the same specimen in many different appearances depending
 for capturing an image. The dataset i created is unique so it may be difficult to be tested on other images with different specifications or appearances but it is 
 
 programmed to work with any kind of combination that you choose between the available 20 capturing modalities(1-20). So, you can test this one with the existing dataset
-
 or create your own dataset and train again this CNNs.
 
 Microscope's Utilities :
