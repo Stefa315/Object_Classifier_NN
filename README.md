@@ -24,6 +24,18 @@ Microscope's Utilities :
 - Hyperspectral Microscopy: 13 Bands between 325nm-1000nm
 
 
+# HOW TO USE :
+- Download the zipfile and unzip it inside your project.
+- Place the modules inside your environment.
+- Create a Models_Saved folder inside your project. After training each Convolutional NN the folders will be created automatically and the models will be saved inside with numerical order. You can and must specify the combinations of modalities
+that will be used for classifying in the Classify_Areas.py module and make sure you have created the model with this specific combination you want. There are already
+11 combinations that i have tried and you can find them in my GoogleDrive inside the Classifier_Multimodes folder in the readme.txt file.
+- Download the Dataset from my GoogleDrive, the link is inside the readme.txt in the Dataset Folder.
+- The CNN_Bundle.py trains and saves the models for each modality in a folder which be created after the training phase.
+- Download the SampleK folder from my GoogleDrive, the link is inside the readme.txt in the SamlpeK Folder.
+- Place the SampleK folder inside your project.
+- Classify_Areas.py will classify all the aeras of the SampleK folder and reconstruct 6 images with the classified specimens and place the images inside 
+the folder you want. **Line 105**
 
 
 
